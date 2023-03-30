@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon" />
+	<title> CONTACTOS </title>
+</head>
+<body>
+      <div id="franja"></div>
+	   <header>
+ 	      <img src="imagenes/fondo.jpg" align="center">
+      </header>
+
+     <nav>
+        <ul>
+          	<li><img src="imagenes/icono1.png" align="top"><P>
+               <a href="inicio.html"> EL ESTANCO </a>
+            </li>
+            <li><img src="imagenes/icono2.png" align="top"><p>
+               <a href="cervezas.html"> CERVEZAS </a>
+            </li>
+            <li><img src="imagenes/icono3.png" align="top"><p>
+               <a href="vinos.html"> VINOS </a>
+            </li>
+            <li><img src="imagenes/icono4.png" align="top"><p>
+               <a href="whiskeys.html"> WHISKEYS </a>
+            </li>
+            <li><img src="imagenes/icono5.png" align="top"><p>
+               <a href="tequila.html"> TEQUILA 
+            </li>    
+            <li><img src="imagenes/icono6.png" align="top"><p>
+               CONTACTO </a>
+            </li>
+        </ul>
+     </nav>
+
+     <section id="contenido2">
+    <div id="titulo">
+         <h2>Contacto</h2>
+    </div>
+    <div id="formulario">
+    <form action="enviar.php" method="post">
+     <fieldset>
+            <legend>Datos personales</legend>
+            Nombre: <input type="text" name="nombre" size="38" placeholder="Nombre"title="Escriba su nombre para poder referirnos a usted correctamente."autofocus autocomplete><br>
+            Apellido: <input type="text" name="apellido" size="38" placeholder="Apellido"autofocus autocomplete><br>
+            Correo electrónico: <input type="email" name="mail" size="28" title="Escriba su correo electrónico para poder comunicarnos con usted lo antes posible." placeholder="@etc..."required autocomplete><br>
+            Edad:  
+            <input type="number" name="edad" value="18" min="15" max="60" step="50">
+         </fieldset>
+
+         <fieldset>
+            <legend>¿Que te gusto?</legend>
+            Elige tu seccion favorita:<br>
+            <input type="radio" name="liga" value="el ESTANCO"/> El estanco<p> 
+            <input type="radio" name="liga" value="cervezas"/> Las cervezas
+            <input type="radio" name="liga" value="vinos"/> Los vinos
+            <input type="radio" name="liga" value="whiskeys"/> Los whiskeys
+            <input type="radio" name="liga" value="tequila"/> Los tequilas<p>
+             
+            Sugerencias?:<br>
+            <textarea name="comentarios"></textarea><p>   
+            
+         </fieldset>
+         <input id="boton_enviar" type="submit" value="Enviar">
+
+
+      </form>
+   </div>   
+
+      <div id="mapa">
+
+   <iframe src="https://www.google.com/maps/d/embed?mid=1GncZ-DsAZKUi4MT4SAr7w-JSQ0k&msa=0&ie=UTF8&t=m&ll=2.441856432405428%2C-76.60638230182538&spn=0.015007%2C0.023603&z=19&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   </div>
+   <div id="tapa">
+      <b>Cervezas disponibles</b>
+         Parque Caldas Popayan.
+         Colombia<p>
+         Cel: 3166823955<br>
+         Mail: Estanco@gmail.com<br>
+         Web:www.cervezaselestanco.com<br>
+
+      <div id="reducir">
+          Ver ubicacion
+      </div>
+ </div>
+
+   </section>
+
+
+     <div id="franja_final"></div>
+     <footer>
+       <h5>
+          &copy;2023. Todas las cervezas disponibles<br>
+       </h5>
+   </footer>
+
+</body>
+</html>
